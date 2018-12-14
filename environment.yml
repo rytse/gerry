@@ -1,0 +1,14 @@
+name: gerry
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6
+    - jupyter
+    - numpy
+    - scipy
+    - matplotlib
+    - basemap
+    - pandas
+    - geopandas
+    - geoplot
+    - shapely
