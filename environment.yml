@@ -1,6 +1,8 @@
 name: gerry
 channels:
     - conda-forge
+      #    - ostrokach-forge
+      #    - pkgw-forge
 dependencies:
     - python=3.6
     - jupyter
@@ -9,6 +11,11 @@ dependencies:
     - matplotlib
     - basemap
     - pandas
-    - geopandas
-    - geoplot
+    - conda-forge::geopandas
+    - conda-forge::geoplot
     - shapely
+    - conda-forge::gdal
+      #    - gtk3
+      #    - pygobject
+      #    - graph-tool
+    - conda-forge::fiona=1.6.0
